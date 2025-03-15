@@ -23,13 +23,11 @@ navLinks.forEach(link => {
         let target = document.querySelector(this.getAttribute('href'));
         target.scrollIntoView({behavior: 'smooth'});
 
-        // updates the active class when scrolled through each sections
         navLinks.forEach(link => link.classList.remove('active'));
         this.classList.add('active');
     });
 });
 
-// add click event listener for the home link to scroll to the top
 document.querySelector('header nav a[href*="home"]').addEventListener('click', function(e) {
     e.preventDefault();
     window.scrollTo({ top: 0, behavior: 'smooth' });
