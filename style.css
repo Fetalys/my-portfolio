@@ -274,12 +274,6 @@ span{
     }
 }
 
-#container {
-    height: 100rem;
-    justify-content: center;
-    align-items: center;
-}
-
 #service {
     font-size: 3rem;
     top: 3rem;
@@ -287,10 +281,32 @@ span{
 
 #skills {
     font-size: 3rem;
-    border-top: 5rem;
+    border-top: 2rem;
 }
+.container{
+    align-items: center;
+    display: flex;
+    margin-top: 20rem;
+    margin-left: 30rem;
 
-#education {
+}
+.logo_itemcss {
+    margin: 2rem;
+    filter: invert(1);
+}
+.logo_itemhtml {
+    margin: 2rem;
+    filter: invert(1);
+}
+.logo_itemjs {
+    margin: 2rem;
+    filter: invert(1);
+}
+.logo_itemmysql {
+    margin: 2rem;
+    margin-top: 1.5rem;
+}
+#projects {
     font-size: 3rem;
     margin-top: 2rem;
 }
