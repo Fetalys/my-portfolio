@@ -64,7 +64,7 @@ header{
     border-bottom: 3px solid #CC5500;
 }
 
-@media(max-width:995px){
+@media(max-width: 768px){
     #navbar{
         position: fixed;
         display: none;
@@ -198,7 +198,27 @@ span{
     color: black;
     box-shadow: 0 0 25px #CC5500;
 }
+.btn2{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    margin-left: 1rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #CC5500;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #CC5500;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 
+.btn2:hover{
+    transform: scale3d(1.03);
+    background-color: #CC5500;
+    color: black;
+    box-shadow: 0 0 25px #CC5500;
+}
 .typing-text{
     font-size: 34px;
     font-weight: 600;
@@ -278,40 +298,138 @@ span{
     font-size: 3rem;
     top: 3rem;
 }
-
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+    width: 325px;
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px #CC5500 ;
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h3{
+    color: #CC5500;
+    font-size: 28px;
+    margin-bottom: 1px ;
+}
+.card-content p {
+    font-size: 15px;
+}
 #skills {
     font-size: 3rem;
-    border-top: 2rem;
+    border-top: 3rem;
 }
-.container{
-    align-items: center;
+.skill-container {
     display: flex;
-    margin-top: 20rem;
-    margin-left: 30rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill {
+  box-shadow: 0 2px 20px 0 #CC5500;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 8px;
+    
+    
+}
+.skill img {
+    margin-top: 1rem;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
+.skill-content {
+    padding: 15px;
 }
-.logo_itemcss {
-    margin: 2rem;
-    filter: invert(1);
+.skill-content h3{
+    color: #CC5500;
+    font-size: 28px;
+    margin-right: -0rem;
+    margin-bottom: 1px ;
 }
-.logo_itemhtml {
-    margin: 2rem;
-    filter: invert(1);
+.skill-content p {
+    font-size: 12px;
 }
-.logo_itemjs {
-    margin: 2rem;
-    filter: invert(1);
-}
-.logo_itemmysql {
-    margin: 2rem;
-    margin-top: 1.5rem;
-}
+
 #projects {
     font-size: 3rem;
     margin-top: 2rem;
+}
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.project {
+    width: 325px;
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 20px #CC5500 ;
+    margin: 20px;
+}
+.project img {
+    width: 100%;
+    height: auto;
+}
+.project-content {
+    padding: 16px;
+}
+.project-content h3{
+    color: #CC5500;
+    font-size: 28px;
+    margin-bottom: 1px ;
+}
+.project-content p {
+    font-size: 15px;
 }
 
 #contact {
     font-size: 3rem;
     margin-top: 2rem;
 }
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; 
+  }
+  
+  input[type=submit] {
+    background-color: #CC5500;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    box-shadow: black;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    display: inline-table;
+  }
