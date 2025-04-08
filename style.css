@@ -18,8 +18,8 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
-    color: white;
+    background-color: #262424;
+    color: #eee5da;
 }
 
 header{
@@ -29,17 +29,16 @@ header{
     left: 0;
     width: 100%;
     padding: 0.5rem 9%;
-    background-color: black;
+    background-color: #262424;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-
 .logo{
     font-size: 3rem;
-    color: #CC5500;
+    color: #eee5da;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -51,7 +50,7 @@ header{
 
 #navbar a{
     font-size: 1.8rem;
-    color: white;
+    color: #eee5da;
     margin-left: 4rem;
     font-weight: 500;
     transition: 0.3s;
@@ -60,8 +59,8 @@ header{
 
 #navbar a:hover,
 #navbar a.active{
-    color: #CC5500;
-    border-bottom: 3px solid #CC5500;
+    color: #8A7F7D;
+    border-bottom: 3px solid #8A7F7D;
 }
 
 @media(max-width: 768px){
@@ -72,8 +71,8 @@ header{
         right: 0;
         width: 40%;
         transition: 0.04s;
-        border-left: 3px solid #CC5500;
-        border-bottom: 3px solid #CC5500;
+        border-left: 3px solid #8A7F7D;
+        border-bottom: 3px solid #8A7F7D;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #161616;
@@ -95,7 +94,7 @@ header{
     #navbar a.active{
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #CC5500;
+        border-bottom: 0.5rem solid #8A7F7D;
     }
 }
 
@@ -109,7 +108,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 8rem;
-    background-color: black;
+    background-color: #262424;
 }
 
 #home .home-content h1{
@@ -119,7 +118,7 @@ section{
 }
 
 span{
-    color: #CC5500;
+    color: #8A7F7D;
 }
 
 .home-content h3{
@@ -138,9 +137,9 @@ span{
 
 .home-img img{
     position: relative;
-    width: 30vw;
-    border-radius: 30%;
-    box-shadow: 0 0 20px solid #CC5500;
+    width: 25vw;
+    border-radius: 5%;
+    box-shadow: 0 0 20px solid #8A7F7D;
     cursor: pointer;
     transition: 0.2s infinite;
     animation-name: glow;
@@ -148,7 +147,7 @@ span{
 }
 
 @keyframes glow{
-    50%{box-shadow: 0px 0px 50px #CC5500 };
+    50%{box-shadow: 0px 0px 100px #8A7F7D };
 }
 
 .home-img:hover{
@@ -163,19 +162,19 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #CC5500;
+    border: 0.2rem solid #eee5da;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    color: #CC5500;
+    color: #eee5da;
 }
 
 .social-icons a:hover{
-    color: black;
+    color: #262424;
     transform: scale(1.3) translateY(-5px);
-    background-color: #CC5500;
-    box-shadow: 0  0 25px #CC5500;
+    background-color: #eee5da;
+    box-shadow: 0  0 25px #eee5da;
 }
 
 .btn{
@@ -183,42 +182,42 @@ span{
     padding: 1rem 2.8rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    background-color: black;
+    background-color: #262424;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #CC5500;
+    color: #eee5da;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #CC5500;
+    border: 2px solid #eee5da;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover{
     transform: scale3d(1.03);
-    background-color: #CC5500;
-    color: black;
-    box-shadow: 0 0 25px #CC5500;
+    background-color: #eee5da;
+    color: #262424;
+    box-shadow: 0 0 25px #eee5da;
 }
 .btn2{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background-color: black;
+    background-color: #262424;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #CC5500;
+    color: #eee5da;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #CC5500;
+    border: 2px solid #eee5da;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn2:hover{
     transform: scale3d(1.03);
-    background-color: #CC5500;
-    color: black;
-    box-shadow: 0 0 25px #CC5500;
+    background-color: #eee5da;
+    color: #262424;
+    box-shadow: 0 0 25px #eee5da;
 }
 .typing-text{
     font-size: 10px;
@@ -232,7 +231,7 @@ span{
 
 .typing-text span::before{
     content: "Web & Game Developer";
-    color: #CC5500;
+    color: #8A7F7D;
     animation: words 20s infinite;
 }
 
@@ -249,7 +248,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #CC5500;
+        border-left: 3px solid #8A7F7D;
     }
 }
 
@@ -307,10 +306,10 @@ span{
 }
 .card {
     width: 325px;
-    background-color: black;
+    background-color: #262424;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0px 2px 20px #CC5500 ;
+    box-shadow: 0px 2px 20px #8A7F7D ;
     margin: 20px;
 }
 .card img {
@@ -321,7 +320,7 @@ span{
     padding: 16px;
 }
 .card-content h3{
-    color: #CC5500;
+    color: #F8F1E1;
     font-size: 28px;
     margin-bottom: 1px ;
 }
@@ -338,7 +337,7 @@ span{
     flex-wrap: wrap;
 }
 .skill {
-  box-shadow: 0 2px 20px 0 #CC5500;
+  box-shadow: 0 2px 20px 0 #8A7F7D;
   max-width: 350px;
   margin: 20px;
   text-align: center;
@@ -357,7 +356,7 @@ span{
     padding: 15px;
 }
 .skill-content h3{
-    color: #CC5500;
+    color: #eee5da;
     font-size: 28px;
     margin-top: -1.5rem;
     margin-right: -0rem;
@@ -377,35 +376,35 @@ span{
 .skill-content .html {
     width: 25%;
     height: 30px;
-    background-color: #CC5500;
+    background-color: #eee5da;
     border-radius: 10px;
     transition: all 0.2s;
 }
 .skill-content .css {
     width: 25%;
     height: 30px;
-    background-color: #CC5500;
+    background-color: #eee5da;
     border-radius: 10px;
     transition: all 0.2s;
 }
 .skill-content .js {
     width: 5%;
     height: 30px;
-    background-color: #CC5500;
+    background-color: #eee5da;
     border-radius: 10px;
     transition: all 0.2s;
 }
 .skill-content .mysql {
     width: 15%;
     height: 30px;
-    background-color: #CC5500;
+    background-color: #eee5da;
     border-radius: 10px;
     transition: all 0.2s;
 }
 .skill-content .php {
     width: 0%;
     height: 30px;
-    background-color: #CC5500;
+    background-color: #eee5da;
     border-radius: 10px;
     transition: all 0.2s;
 }
@@ -430,10 +429,11 @@ span{
 }
 .project {
     width: 325px;
-    background-color: black;
+    height: 50rem;
+    background-color: #262424;
     border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 2px 20px #CC5500 ;
+    overflow: auto;
+    box-shadow: 0px 2px 20px #8A7F7D ;
     margin: 20px;
 }
 .project img {
@@ -444,7 +444,7 @@ span{
     padding: 16px;
 }
 .project-content h3{
-    color: #CC5500;
+    color: #F8F1E1;
     font-size: 28px;
     margin-bottom: 1px ;
 }
@@ -458,23 +458,25 @@ span{
 }
 .container {
     border-radius: 1px;
-    background-color: black;
+    background-color: #262424;
     padding: 20px;
-    display: inline-table;
+    display:block;
 }
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 10px; 
-    border: 1px solid #ccc; 
+    border: 0px solid #ccc; 
     border-radius: 4px; 
     box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
     resize: vertical; 
+    justify-content: start;
 }
   
 input[type=submit] {
-    background-color: #CC5500;
+    background-color: #8A7F7D;
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -483,13 +485,13 @@ input[type=submit] {
 }
   
 input[type=submit]:hover {
-    box-shadow: black;
+    box-shadow: #262424;
 }
 footer{
     height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #333;
+    background-color: #262424;
     font-size:2rem;
 }
