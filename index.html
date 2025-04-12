@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="logo/favicon.ico" type="image/x-icon" />
     <title>Aldrich</title>
@@ -24,7 +27,7 @@
     <!--change the class to id so js can callout it as link-->
     <section id="home">
         <div class="home-img">
-            <img src="aldrich-logo.png" alt="aldrich doing something (probably programming related)" />
+            <img src="aldrich-logo.png" alt="logo" />
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Aldrich</span></h1>
@@ -44,7 +47,7 @@
                 <a href="https://www.instagram.com/shelove_aldrich/">
                     <i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="hire-me.html" class="btn">Hire Me</a>
+            <a href="#contact" class="btn">Hire Me</a>
             <a href="Dan CV.pdf" class="btn2" download>Download Resume</a>
         </div>
     </section>
@@ -52,42 +55,29 @@
         <h1>Service</h1>
         <div class="card-container">
             <div class="card">
-                <img src="service/Laylow.jpg" alt="landing page" />
+                <img src="service/code.png" alt="landing page" />
                 <div class="card-content">
-                    <h3>Custom Website Development</h3>
+                    <h3>Web Design</h3>
                     <p>
-                        specialize in building modern, professional business websites to
-                        help companies establish a strong online presence. Additionally, I
-                        create impactful landing pages tailored for marketing campaigns or
-                        product launches, designed to drive conversions. For individuals
-                        like artists, photographers, or writers, I also build personal
-                        portfolio websites to showcase their work in a visually appealing
-                        and organized manner.
+                        I offer custom website designs, responsive design to ensure compatibility across devices, and
+                        UI/UX design to enhance user experience
                     </p>
                 </div>
             </div>
             <div class="card">
-                <img src="service/landing page.png" alt="games" />
+                <img src="service/camera.png" alt="games" />
                 <div class="card-content">
-                    <h3>Web-Based Game Development</h3>
-                    <p>
-                        Create interactive, browser-based games using technologies like
-                        JavaScript, HTML5 Canvas, or WebGL for clients in the
-                        entertainment or education industry.
-                    </p>
+                    <h3>Photography</h3>
+                    <p>I make high-quality photos of any category at a professional level.</p>
                 </div>
             </div>
             <div class="card">
-                <img src="service/NOCTURNAL ESPORTS.png" alt="graphics" height="100px" />
+                <img src="service/edit.png" alt="graphics" height="100px" />
                 <div class="card-content">
-                    <h3>Graphic Design for Web & Social Media</h3>
+                    <h3>Graphic Design</h3>
                     <p>
-                        designing eye-catching banners and hero images for websites,
-                        creating engaging graphics for social media posts, and designing
-                        visuals for online advertisements. It also involves creating
-                        infographics that simplify complex information and make it
-                        visually appealing for better engagement and user experience
-                        across digital platforms.
+                        I design logos, icons, illustrations, and other visual assets that enhance the website's
+                        branding and aesthetic appeal
                     </p>
                 </div>
             </div>
@@ -98,9 +88,8 @@
         <h1>Skills</h1>
         <div class="skill-container">
             <div class="skill">
-                <img src="skills logo/htmllogo.png" alt="landing page" />
+                <i class='bx bxl-html5 skills-icon'></i>
                 <div class="skill-content">
-                    <h3>HTML</h3>
                     <div class="progress">
                         <div class="html"></div>
                         <span class="progress__text">25%</span>
@@ -108,9 +97,8 @@
                 </div>
             </div>
             <div class="skill">
-                <img src="skills logo/csslogo.png" alt="css" />
+                <i class='bx bxl-css3 skills-icon'></i>
                 <div class="skill-content">
-                    <h3>CSS</h3>
                     <div class="progress">
                         <div class="css"></div>
                         <span class="progress__text">25%</span>
@@ -118,9 +106,8 @@
                 </div>
             </div>
             <div class="skill">
-                <img src="skills logo/javascriptlogo.png" alt="graphics" height="100px" />
+                <i class='bx bxl-javascript skills-icon'></i>
                 <div class="skill-content">
-                    <h3>JAVASCRIPT</h3>
                     <div class="progress">
                         <div class="js"></div>
                         <span class="progress__text">5%</span>
@@ -128,9 +115,8 @@
                 </div>
             </div>
             <div class="skill">
-                <img src="skills logo/mysqllogo.png" alt="graphics" height="100px" />
+                <i class="fa fa-mysql" aria-hidden="true"></i>
                 <div class="skill-content">
-                    <h3>MYSQL</h3>
                     <div class="progress">
                         <div class="mysql"></div>
                         <span class="progress__text">15%</span>
@@ -138,9 +124,8 @@
                 </div>
             </div>
             <div class="skill">
-                <img src="skills logo/php_icon_130857.png" alt="games" />
+                <i class='bx bxl-php skills-icon'></i>
                 <div class="skill-content">
-                    <h3>PHP</h3>
                     <div class="progress">
                         <div class="php"></div>
                         <span class="progress__text">0%</span>
@@ -154,7 +139,7 @@
         <h1>Projects</h1>
         <div class="project-container">
             <div class="project">
-                <img src="service/Laylow.jpg" alt="landing page" />
+                <img src="project/Laylow.jpg" alt="landing page" />
                 <div class="project-content">
                     <h3>LayLow Gaming Lounge</h3>
                     <p>
@@ -171,7 +156,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="service/landing page.png" alt="games" />
+                <img src="project/landing page.png" alt="games" />
                 <div class="project-content">
                     <h3>SanpySpots</h3>
                     <p>
@@ -189,7 +174,7 @@
                 </div>
             </div>
             <div class="project">
-                <img src="service/NOCTURNAL ESPORTS.png" alt="graphics" height="100px" />
+                <img src="project/NOCTURNAL ESPORTS.png" alt="graphics" height="100px" />
                 <div class="project-content">
                     <h3>Nocturnal eSports Banner</h3>
                     <p>
