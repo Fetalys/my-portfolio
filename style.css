@@ -234,7 +234,7 @@ span {
 }
 
 .typing-text span::before {
-  content: "Web & Game Developer";
+  content: "";
   color: #8a7f7d;
   animation: words 20s infinite;
 }
