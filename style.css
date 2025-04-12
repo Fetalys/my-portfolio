@@ -489,40 +489,32 @@ span {
 #contact {
   font-size: 3rem;
   margin-top: 2rem;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
 }
 
-.container {
-  border-radius: 1px;
-  background-color: #262424;
-  padding: 20px;
-  display: block;
-}
-
-input[type="text"],
-select,
-textarea {
+.contact-input {
   width: 100%;
-  padding: 10px;
-  border: 0px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  resize: vertical;
-  justify-content: start;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #eee5da;
+  outline: none;
+  margin-bottom: 2rem;
 }
 
-input[type="submit"] {
-  background-color: #8a7f7d;
-  color: #fff;
-  padding: 12px 20px;
+.contact-button {
+  display: flex;
+  justify-self: center;
   border: none;
-  border-radius: 6px;
+  outline: none;
+  font-size: 2rem;
   cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  box-shadow: #262424;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 footer {
